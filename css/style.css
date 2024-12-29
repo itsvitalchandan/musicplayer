@@ -1,0 +1,122 @@
+/* styles.css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+   background-color: black; 
+  }
+  .header{
+    color: white;
+    background-color: rgb(23, 23, 23);
+    margin-bottom: 10px;
+  }
+  .nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .search-bar{
+
+  }
+  .search-bar input{
+    padding: 10px;
+    width: 400px;
+    height: 40px;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+  }
+  .login-btn button{
+    margin-left: 30px;
+    width: 100px;
+    height: 40px;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+  }
+  .login-btn button:hover{
+    background-color: #464646;
+    color: white;
+  }
+  .head-list{
+    color: white;
+    background-color:rgb(23, 23, 23);
+    border-top: 2px solid white;
+  }
+  .head-list ul{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .head-list ul li{
+    padding: 20px;
+    list-style: none;
+    width: 150px;
+    text-align: center;
+  }
+  .head-list ul li:hover{
+    background-color: #434343;
+  }
+  section{
+    padding: 20px;
+    color: white;
+    background-color: #333333;
+    margin:10px 10px;
+  }
+  .singer-head{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  .singer img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid;
+  }
+  .singer h6{
+    font-size: 1.2rem;
+  }
+  .singer img:hover{
+    background-color: rgba(0, 255, 255, 0.292);
+  }
+  .song-list{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+  }
+  .song{
+    padding: 10px;
+    width: 220px;
+    border-radius: 10px;
+  }
+  .song:hover{
+    background-color: rgba(69, 69, 69, 0.745);
+  }
+  .song img{
+    width: 200px;
+  }
+  footer{
+    padding: 5px;
+    color: white;
+    text-align: center;
+  }
+  .footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+  }
+  .list li{
+    list-style: none;
+    margin-bottom: 12px;
+  }
